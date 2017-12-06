@@ -28,8 +28,6 @@
 # Given the initial block counts in your puzzle input, how many redistribution cycles must be
 # completed before a configuration is produced that has been seen before?
 
-import math
-
 def day6():
     inp = '4 10 4 1 8 4 9 14 5 1 14 15 0 15 3 5'
     memory = [int(i) for i in inp.strip().split()]
