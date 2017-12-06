@@ -23,7 +23,9 @@
 # The fourth bank is chosen, and its four blocks are distributed such that each of the four banks
 # receives one: 1 3 4 1.
 # The third bank is chosen, and the same thing happens: 2 4 1 2.
-# At this point, we've reached a state we've seen before: 2 4 1 2 was already seen. The infinite loop is detected after the fifth block redistribution cycle, and so the answer in this example is 5.
+# At this point, we've reached a state we've seen before: 2 4 1 2 was already seen. The infinite
+# loop is detected after the fifth block redistribution cycle, and so the answer in this example is
+# 5.
 # 
 # Given the initial block counts in your puzzle input, how many redistribution cycles must be
 # completed before a configuration is produced that has been seen before?
