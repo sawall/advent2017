@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
 
-from collections import defaultdict
-import operator as op
-
-
 # process is traversing a hex grid
 #
 #      N
